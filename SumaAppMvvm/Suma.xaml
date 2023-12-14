@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SumaAppMvvm.Suma"
+             Title="Suma">
+    <VerticalStackLayout>
+        
+        <Entry x:Name="Numero1"
+               Placeholder="numero1"
+               Keyboard="Numeric"/>
+        
+        <Entry x:Name="Numero2"
+               Placeholder="numero2"
+               Keyboard="Numeric"/>
+        
+        <Button Text="Sumar" Clicked="OnButtonClicked"/>
+        
+        <Button Text="Limpiar" Clicked="OnButtonlimpiar"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
